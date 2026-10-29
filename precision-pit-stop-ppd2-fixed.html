@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101113">
+  <meta name="description" content="Professional mobile auto detailing and headlight restoration in Manassas, Gainesville, Haymarket, and Northern Virginia. Contact Precision Pit Stop Detailing for a quote.">
+  <meta name="robots" content="index, follow">
+  <title>Precision Pit Stop Detailing | Northern Virginia</title>
+
+  <!-- IMPORTANT: These URLs must match the PPD2 GitHub Pages address. -->
+  <link rel="canonical" href="https://landonlifts024.github.io/PPD2/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Precision Pit Stop Detailing">
+  <meta property="og:title" content="Precision Pit Stop Detailing | Northern Virginia">
+  <meta property="og:description" content="Mobile auto detailing and headlight restoration in Northern Virginia. Quality service delivered right to your driveway.">
+  <meta property="og:url" content="https://landonlifts024.github.io/PPD2/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&h=630&q=85">
+  <meta property="og:image:secure_url" content="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&h=630&q=85">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Automobile featured for Precision Pit Stop Detailing">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Precision Pit Stop Detailing | Northern Virginia">
+  <meta name="twitter:description" content="Mobile auto detailing and headlight restoration in Northern Virginia. Contact us for a quote.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&h=630&q=85">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{--bg:#101113;--panel:#191b1f;--red:#ed292f;--white:#f6f6f4;--muted:#b6b7bb;--line:#34363a;--display:"Barlow Condensed","Arial Narrow",sans-serif;--font:"Inter",Arial,sans-serif}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:var(--bg);color:var(--white);font-family:var(--font);line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    button,input,select,textarea{font:inherit}
+    img{max-width:100%}
+    :focus-visible{outline:3px solid #ff7277;outline-offset:3px}
+    .topline{display:flex;justify-content:space-between;gap:16px;padding:9px 5.5%;background:#08090a;color:#bfc0c2;font-size:10px;letter-spacing:.15em;font-weight:700}
+    .topline span:first-child{color:var(--red)}
+    header{min-height:82px;padding:12px 5.5%;display:flex;align-items:center;justify-content:space-between;gap:24px;background:#101113;position:sticky;top:0;z-index:20;border-bottom:1px solid #2a2b2f}
+    .brand{display:inline-flex;align-items:center;gap:10px;flex-shrink:0}
+    .mark{font-size:36px;color:white;text-shadow:2px 0 var(--red)}
+    .brand-type{display:flex;flex-direction:column;line-height:.9}
+    .brand-type b{font:900 27px var(--display);font-style:italic}
+    .brand-type b:first-child{color:var(--red)}
+    .brand-type small{font-size:9px;letter-spacing:.27em;margin-top:7px}
+    .nav{display:flex;align-items:center;gap:22px;font-size:11px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}
+    .nav>a:not(.cta){color:#ddd}
+    .cta{background:var(--red);padding:13px 17px}
+    .menu{display:none;background:transparent;color:white;border:1px solid var(--line);padding:8px 12px;font-size:21px}
+    .hero{position:relative;min-height:640px;display:flex;align-items:center;overflow:hidden}
+    .hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,8,10,.97),rgba(7,8,10,.81) 42%,rgba(7,8,10,.25)),linear-gradient(0deg,rgba(7,8,10,.7),transparent 35%),url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2200&q=85") center 56%/cover}
+    .hero-content{position:relative;padding:78px 0 86px 8.5%;width:min(790px,90%)}
+    .eyebrow,.label{font-size:10px;letter-spacing:.17em;font-weight:800}
+    .eyebrow{color:#ddd}
+    .slash{display:inline-block;width:25px;height:3px;background:var(--red);transform:skew(-25deg);margin-right:10px;vertical-align:middle}
+    h1,h2,h3,p{overflow-wrap:break-word}
+    .hero h1{font:900 clamp(62px,8.5vw,112px)/.84 var(--display);letter-spacing:-.025em;margin:28px 0}
+    .hero h1 span,.red{color:var(--red)}
+    .hero-copy{max-width:470px;color:#d0d0d0;font-size:14px;line-height:1.9}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:14px 20px;font-size:10px;font-weight:800;letter-spacing:.09em;text-align:center;border:0;cursor:pointer;clip-path:polygon(0 0,calc(100% - 9px) 0,100% 9px,100% 100%,9px 100%,0 calc(100% - 9px))}
+    .primary{background:var(--red);color:white}
+    .primary:hover{background:#c91d23}
+    .secondary{border:1px solid #aaa;background:#1118;color:white}
+    .proof{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:38px;color:#ccc;font-size:9px;letter-spacing:.1em;font-weight:700}
+    .proof i{width:3px;height:3px;background:var(--red);border-radius:50%}
+    .stamp{position:absolute;right:6%;bottom:65px;border-left:3px solid var(--red);padding-left:15px;font-size:9px;letter-spacing:.17em;line-height:1.2}
+    .stamp strong{display:block;font:900 38px var(--display)}
+    .bottom-line{position:absolute;bottom:0;left:0;right:0;height:5px;background:linear-gradient(90deg,var(--red) 0 25%,#75131a 25% 36%,transparent 36%)}
+    .wrap{max-width:1180px;margin:0 auto;padding:86px 6%}
+    .label{color:#999ba0}
+    h2{font:900 clamp(43px,5vw,68px)/.95 var(--display);margin:17px 0 22px;letter-spacing:-.01em}
+    .intro{display:grid;grid-template-columns:1fr 2.2fr .8fr;gap:35px;border-bottom:1px solid var(--line);max-width:none}
+    .intro p,.section-heading>p{color:var(--muted);font-size:13px;line-height:1.95}
+    .stat{border-left:1px solid var(--line);padding:8px 0 8px 22px;display:flex;flex-direction:column;font:900 34px/.95 var(--display);margin-top:32px}
+    .stat span{color:var(--red)}
+    .stat small{font:700 9px var(--font);letter-spacing:.12em;color:#aaa;margin-top:13px}
+    .dark-section{background:#141518;max-width:none}
+    .inner{max-width:1180px;margin:0 auto}
+    .section-heading{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:38px}
+    .section-heading h2{margin-bottom:0}
+    .section-heading>p{max-width:360px;margin-bottom:3px}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+    .card{background:var(--panel);border:1px solid #303237;overflow:hidden;position:relative;min-width:0}
+    .photo{height:200px;background-size:cover;background-position:center;filter:saturate(.78)}
+    .p1{background-image:url("https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=900&q=80")}
+    .p2{background-image:url("https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&w=900&q=80")}
+    .p3{background-image:url("https://images.unsplash.com/photo-1485291571150-772bcfc10da5?auto=format&fit=crop&w=900&q=80")}
+    .num{position:absolute;top:169px;right:15px;background:var(--red);padding:5px 12px;font:800 20px var(--display)}
+    .card-body{padding:25px 22px 28px}
+    .kicker{font-size:9px;letter-spacing:.15em;color:var(--red);font-weight:800;margin:0 0 10px}
+    .card h3{font:800 34px/.94 var(--display);margin:0 0 16px}
+    .card-body>p:not(.kicker){font-size:12px;line-height:1.85;color:#b8b9bc}
+    .card ul{padding-left:17px;color:#d1d1d2;font-size:11px;line-height:2;margin-bottom:22px}
+    .card li::marker{color:var(--red)}
+    .text-link{font-size:10px;letter-spacing:.06em;font-weight:800;border-bottom:1px solid var(--red);padding-bottom:7px;display:inline-block}
+    .note{color:#999;font-size:10px;margin:23px 0 0}
+    .statement{position:relative;overflow:hidden;background:linear-gradient(90deg,#090a0c 0%,#090a0ccc 65%,#090a0caa),url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=85") center/cover;padding:88px 8.5%}
+    .statement-inner{max-width:800px;margin:0 auto}
+    .statement h2{font-size:clamp(48px,6vw,80px);margin:25px 0}
+    .statement p:not(.eyebrow){max-width:570px;color:#c1c2c4;font-size:13px;line-height:1.9}
+    .light{background:#efefec;color:#161719;max-width:none}
+    .light .label{color:#6d6f73}
+    .light .section-heading>p{color:#5e6064}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid #c7c7c4}
+    .steps article{padding:30px 25px;border-right:1px solid #c7c7c4}
+    .steps article:first-child{padding-left:0}
+    .steps article:last-child{border:0}
+    .stepnum{color:var(--red);font-size:12px;font-weight:800}
+    .stepicon{font-size:28px;color:var(--red);margin:23px 0 10px}
+    .steps h3{font:800 28px var(--display);margin:0 0 10px}
+    .steps p{font-size:12px;color:#5c5d60;line-height:1.9;max-width:280px}
+    .gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .placeholder{min-height:220px;background:linear-gradient(140deg,#24262a,#111214);border:1px dashed #55585d;display:flex;flex-direction:column;justify-content:end;padding:22px}
+    .placeholder span{font-size:9px;color:var(--red);letter-spacing:.15em;font-weight:800}
+    .placeholder strong{font:800 27px var(--display)}
+    .placeholder small{color:#aaa;font-size:10px}
+    .reviews-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .review-panel{padding:30px;background:var(--panel);border:1px solid #303237;border-top:3px solid var(--red)}
+    .review-stars{color:var(--red);font-size:20px;letter-spacing:.12em}
+    .review-panel h3{font:800 30px/.98 var(--display);margin:15px 0}
+    .review-panel p{color:#b8b9bc;font-size:12px;line-height:1.9}
+    .review-note{color:#929499!important;font-size:10px!important}
+    .quote{background:#1a1c20;border-top:4px solid var(--red)}
+    .quote-inner{display:grid;grid-template-columns:1fr 1fr;gap:65px;padding:82px 6%;max-width:1180px;margin:0 auto}
+    .quote-copy h2{font-size:clamp(48px,5.5vw,72px);margin:25px 0}
+    .quote-copy>p{max-width:450px;color:#b8b9bc;font-size:13px;line-height:1.9}
+    .contact{display:flex;gap:15px;margin-top:27px;align-items:center}
+    .contact-icon{font-size:25px;color:var(--red);width:35px;flex-shrink:0}
+    .contact strong,.contact a,.contact span:last-child{display:block}
+    .contact strong{font-size:10px;letter-spacing:.12em}
+    .contact a,.contact span:last-child{color:#c6c7c9;font-size:12px}
+    .form{background:#101113;padding:30px;border:1px solid #34363a;min-width:0}
+    .form label{display:block;font-size:9px;letter-spacing:.12em;font-weight:800;color:#ddd;margin:0 0 7px}
+    .form input,.form select,.form textarea{display:block;width:100%;min-width:0;padding:12px 13px;background:#1c1e22;border:1px solid #393b40;color:white;border-radius:0;margin-bottom:18px;outline:none}
+    .form input:focus,.form select:focus,.form textarea:focus{border-color:var(--red)}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .optional{color:#85878b}
+    .form button{width:100%}
+    .form-note{color:#929499;font-size:10px;line-height:1.7;margin:12px 0 0}
+    .form-error{color:#ff7478;font-size:11px}
+    .footer{padding:30px 6%;display:flex;align-items:center;gap:24px;flex-wrap:wrap;border-top:1px solid #303237;max-width:1180px;margin:0 auto}
+    .footer p{font-size:9px;letter-spacing:.14em;color:#aaa;margin:0 auto 0 0}
+    .footer small{width:100%;color:#777;font-size:10px}
+    .backtop{font-size:10px;font-weight:800;letter-spacing:.1em}
+    @media(max-width:950px){.nav{gap:13px}.nav>a{font-size:10px}.intro{grid-template-columns:1fr 2fr}.stat{display:none}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.card:last-child{grid-column:1/-1}.quote-inner{gap:30px}.stamp{right:4%}}
+    @media(max-width:680px){
+      html{scroll-padding-top:80px}.topline{font-size:8px;letter-spacing:.06em;padding:8px 5%}.topline span:last-child{max-width:48%;text-align:right}
+      header{min-height:74px;padding:10px 5%}.brand-type b{font-size:23px}.mark{font-size:31px}.menu{display:block}
+      .nav{display:none;position:absolute;left:0;right:0;top:100%;background:#101113;padding:14px 5% 20px;flex-direction:column;align-items:stretch;gap:2px;border-bottom:1px solid var(--line)}
+      .nav.open{display:flex}.nav a{padding:12px}.nav .cta{text-align:center;margin-top:6px}
+      .hero{min-height:620px}.hero-bg{background-position:center,center,58% center}.hero-content{padding:65px 5% 80px;width:100%}
+      .hero h1{font-size:clamp(58px,15vw,88px)}.hero-copy{font-size:13px}.stamp{display:none}.proof{gap:8px;font-size:8px}
+      .wrap{padding:65px 6%}.intro{grid-template-columns:1fr;gap:10px}.intro h2,.section-heading h2{font-size:52px}
+      .section-heading{display:block}.section-heading>p{margin-top:20px}.cards{grid-template-columns:1fr}.card:last-child{grid-column:auto}.photo{height:220px}
+      .statement{padding:68px 6%}.statement h2{font-size:clamp(48px,13vw,58px)}.steps{grid-template-columns:1fr}
+      .steps article,.steps article:first-child{padding:24px 0;border-right:0;border-bottom:1px solid #c7c7c4}
+      .steps article:last-child{border-bottom:0}.stepicon{margin:12px 0 6px}.gallery,.reviews-grid{grid-template-columns:1fr}
+      .placeholder{min-height:180px}.review-panel{padding:24px 20px}.quote-inner{grid-template-columns:1fr;padding:65px 6%;gap:30px}
+      .form{padding:22px 17px}.form-row{grid-template-columns:1fr;gap:0}.footer{padding:27px 6%}.footer p{width:100%;order:2}
+      .backtop{margin-left:auto}.footer small{order:3}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <div class="topline"><span>PRECISION. PRIDE. PERFORMANCE.</span><span>MANASSAS · GAINESVILLE · HAYMARKET, VA</span></div>
+  <header>
+    <a class="brand" href="#home" aria-label="Precision Pit Stop home"><span class="mark" aria-hidden="true">◉</span><span class="brand-type"><b>PRECISION</b><b>PIT STOP</b><small>— DETAILING —</small></span></a>
+    <button class="menu" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">☰</button>
+    <nav class="nav" id="site-nav" aria-label="Main navigation"><a href="#services">Services</a><a href="#process">Our Process</a><a href="#reviews">Reviews</a><a href="#results">Results</a><a class="cta" href="#quote">GET A QUOTE ↗</a></nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="slash"></span>MOBILE AUTO DETAILING · NORTHERN VIRGINIA</p>
+        <h1>MAKE EVERY<br>DRIVE <span>LOOK</span><br>LIKE NEW.</h1>
+        <p class="hero-copy">Your car takes you everywhere. Give it the clean, sharp finish it deserves—with professional detailing brought right to you.</p>
+        <div class="actions"><a class="button primary" href="#quote">REQUEST A QUOTE ↗</a><a class="button secondary" href="#services">EXPLORE SERVICES</a></div>
+        <div class="proof"><span>✓ MOBILE CONVENIENCE</span><i></i><span>DETAIL-FOCUSED CARE</span><i></i><span>PERSONAL SERVICE</span></div>
+      </div>
+      <div class="stamp">BUILT ON<strong>DETAIL.</strong>DRIVEN BY PRIDE.</div><div class="bottom-line"></div>
+    </section>
+
+    <section class="wrap intro">
+      <div class="label">01 / THE DIFFERENCE</div>
+      <div><h2>NOT JUST A WASH.<br><span class="red">A RESET.</span></h2><p>Dust in the corners. Film on the glass. Road grime dulling the paint. We focus on the details that change how your vehicle looks and feels—so you can get back behind the wheel proud of what you drive.</p></div>
+      <div class="stat"><strong>YOUR</strong><span>DRIVEWAY</span><small>OUR WORKSPACE</small></div>
+    </section>
+
+    <section class="wrap dark-section" id="services"><div class="inner">
+      <div class="section-heading"><div><div class="label">02 / WHAT WE DO</div><h2>CHOOSE YOUR<br><span class="red">LEVEL OF CLEAN.</span></h2></div><p>Practical services. Careful work. A cleaner vehicle without having to rearrange your day.</p></div>
+      <div class="cards">
+        <article class="card"><div class="photo p1" role="img" aria-label="Vehicle detailing"></div><div class="num">01</div><div class="card-body"><p class="kicker">THE FULL REFRESH</p><h3>INTERIOR &amp;<br>EXTERIOR DETAIL</h3><p>Bring back that fresh-car feeling with a thorough clean inside and out. Great for daily drivers, weekend cars, and vehicles that need extra attention.</p><ul><li>Interior surfaces and touch points</li><li>Carpet and upholstery care as needed</li><li>Exterior wash and finish-focused cleaning</li></ul><a class="text-link" href="#quote" data-service="Interior &amp; Exterior Detail">REQUEST DETAILING QUOTE ↗</a></div></article>
+        <article class="card"><div class="photo p2" role="img" aria-label="Interior and upholstery cleaning"></div><div class="num">02</div><div class="card-body"><p class="kicker">DEEPER CLEAN</p><h3>CARPET &amp;<br>UPHOLSTERY</h3><p>Target embedded dirt and everyday mess that a quick vacuum can leave behind. We’ll assess the material and condition before recommending a treatment.</p><a class="text-link" href="#quote" data-service="Carpet &amp; Upholstery Cleaning">ASK ABOUT EXTRACTION ↗</a></div></article>
+        <article class="card"><div class="photo p3" role="img" aria-label="Car headlight and exterior"></div><div class="num">03</div><div class="card-body"><p class="kicker">SHARPER LOOK. CLEARER LENS.</p><h3>HEADLIGHT<br>RESTORATION</h3><p>Improve the appearance of cloudy, hazy headlights with a restoration service tailored to their condition. Ask for a quote based on your vehicle.</p><a class="text-link" href="#quote" data-service="Headlight Restoration">GET HEADLIGHT QUOTE ↗</a></div></article>
+      </div>
+      <p class="note">Every vehicle is different. Share your vehicle and goals for an accurate quote before booking.</p>
+    </div></section>
+
+    <section class="statement"><div class="statement-inner"><p class="eyebrow"><span class="slash"></span>THE PRECISION STANDARD</p><h2>THE LITTLE THINGS<br>MAKE THE <span class="red">BIG DIFFERENCE.</span></h2><p>We’re here for the finish you notice when the sun hits the paint, the clean touch points you feel every day, and the pride of a car that’s been properly cared for.</p><a class="button primary" href="#quote">LET'S TALK ABOUT YOUR CAR ↗</a></div></section>
+
+    <section class="wrap light" id="process"><div class="inner">
+      <div class="section-heading"><div><div class="label">03 / EASY FROM START TO FINISH</div><h2>THREE STEPS.<br><span class="red">ZERO HASSLE.</span></h2></div><p>Mobile service means you can get your vehicle cleaned without spending your day waiting at a shop.</p></div>
+      <div class="steps">
+        <article><span class="stepnum">01</span><div class="stepicon" aria-hidden="true">↗</div><h3>TELL US ABOUT IT</h3><p>Send your vehicle, service needs, and a few details. Photos help us understand its condition.</p></article>
+        <article><span class="stepnum">02</span><div class="stepicon" aria-hidden="true">⌁</div><h3>GET YOUR QUOTE</h3><p>We’ll discuss the service and confirm the price and availability before you book.</p></article>
+        <article><span class="stepnum">03</span><div class="stepicon" aria-hidden="true">✓</div><h3>ENJOY THE RESET</h3><p>We come to your location in our service area and focus on the details that matter.</p></article>
+      </div>
+    </div></section>
+
+    <section class="wrap dark-section" id="reviews"><div class="inner">
+      <div class="section-heading"><div><div class="label">04 / YOUR EXPERIENCE MATTERS</div><h2>REAL FEEDBACK.<br><span class="red">BETTER DETAILS.</span></h2></div><p>If we’ve worked on your vehicle, we’d appreciate hearing how it went. Your honest feedback helps our local business improve.</p></div>
+      <div class="reviews-grid">
+        <article class="review-panel"><div class="review-stars" aria-label="Decorative five-star prompt">★★★★★</div><h3>HAD YOUR VEHICLE DETAILED?</h3><p>Share your experience with Precision Pit Stop Detailing and let us know what we did well or could improve.</p><p><a class="button primary" href="sms:+18315835123?body=Hi%20Precision%20Pit%20Stop%2C%20I%27d%20like%20to%20share%20feedback%20about%20my%20detail.">SHARE FEEDBACK BY TEXT ↗</a></p><p class="review-note">This opens your messaging app. It does not automatically publish a public review.</p></article>
+        <article class="review-panel"><div class="label">LOCAL SERVICE. PERSONAL CARE.</div><h3>YOUR WORDS<br>MAKE A DIFFERENCE.</h3><p>When you have your Google Business Profile review link, replace the feedback button with that link so customers can post a public review.</p><p class="review-note">No customer testimonials are invented or displayed here.</p></article>
+      </div>
+    </div></section>
+
+    <section class="wrap" id="results">
+      <div class="section-heading"><div><div class="label">05 / THE FINISH</div><h2>LET THE DETAILS<br><span class="red">SPEAK FOR THEMSELVES.</span></h2></div><p>Real vehicle photos are the best way to show your work. Replace these placeholders with your own before-and-after pictures.</p></div>
+      <div class="gallery"><div class="placeholder"><span>ADD YOUR PHOTO</span><strong>INTERIOR RESET</strong><small>Replace with a real customer result</small></div><div class="placeholder"><span>ADD YOUR PHOTO</span><strong>PAINT &amp; FINISH</strong><small>Replace with a real customer result</small></div><div class="placeholder"><span>ADD YOUR PHOTO</span><strong>DETAILS MATTER</strong><small>Replace with a real customer result</small></div></div>
+    </section>
+
+    <section class="quote" id="quote"><div class="quote-inner">
+      <div class="quote-copy"><div class="label">06 / YOUR NEXT CLEAN STARTS HERE</div><h2>READY TO<br><span class="red">RESET YOUR RIDE?</span></h2><p>Tell us what you drive and what you want done. We’ll follow up to discuss your quote and scheduling.</p>
+        <div class="contact"><span class="contact-icon" aria-hidden="true">⌖</span><div><strong>MOBILE SERVICE AREA</strong><span>Manassas · Gainesville · Haymarket &amp; nearby areas</span></div></div>
+        <div class="contact"><span class="contact-icon" aria-hidden="true">☎</span><div><strong>CALL OR TEXT</strong><a href="tel:+18315835123">(831) 583-5123</a></div></div>
+      </div>
+      <form class="form" id="quoteForm">
+        <label for="name">YOUR NAME</label><input id="name" name="name" autocomplete="name" placeholder="Name" required maxlength="100">
+        <div class="form-row"><div><label for="vehicle">VEHICLE</label><input id="vehicle" name="vehicle" placeholder="Year, make &amp; model" required maxlength="120"></div><div><label for="zip">ZIP CODE</label><input id="zip" name="zip" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}(-[0-9]{4})?" maxlength="10" placeholder="e.g. 20110" required></div></div>
+        <label for="service">WHAT DO YOU NEED?</label><select id="service" name="service" required><option value="">Choose a service</option><option>Interior &amp; Exterior Detail</option><option>Interior Detail</option><option>Exterior Detail</option><option>Carpet &amp; Upholstery Cleaning</option><option>Headlight Restoration</option><option>Not sure — help me choose</option></select>
+        <label for="details">ANYTHING ELSE WE SHOULD KNOW? <span class="optional">(OPTIONAL)</span></label><textarea id="details" name="details" rows="3" maxlength="1000" placeholder="Condition, stains, pet hair, goals, preferred timing…"></textarea>
+        <button class="button primary" type="submit">REQUEST MY QUOTE ↗</button>
+        <p class="form-note">This opens a pre-filled text message in your messaging app. Review it and press send to contact us.</p><p class="form-error" id="formError" aria-live="polite"></p>
+      </form>
+    </div></section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#home"><span class="mark" aria-hidden="true">◉</span><span class="brand-type"><b>PRECISION</b><b>PIT STOP</b><small>— DETAILING —</small></span></a>
+    <p>BUILT ON DETAIL. DRIVEN BY PRIDE.</p><a class="backtop" href="#home">BACK TO TOP ↑</a>
+    <small>© <span id="year"></span> Precision Pit Stop Detailing. All rights reserved.</small>
+  </footer>
+
+  <script>
+    (() => {
+      "use strict";
+      const menu = document.querySelector(".menu");
+      const nav = document.querySelector("#site-nav");
+      const form = document.querySelector("#quoteForm");
+      const service = document.querySelector("#service");
+      const error = document.querySelector("#formError");
+
+      if (menu && nav) {
+        menu.addEventListener("click", () => {
+          const open = nav.classList.toggle("open");
+          menu.setAttribute("aria-expanded", String(open));
+          menu.textContent = open ? "×" : "☰";
+        });
+        nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
+          nav.classList.remove("open");
+          menu.setAttribute("aria-expanded", "false");
+          menu.textContent = "☰";
+        }));
+        document.addEventListener("keydown", e => {
+          if (e.key === "Escape") {
+            nav.classList.remove("open");
+            menu.setAttribute("aria-expanded", "false");
+            menu.textContent = "☰";
+          }
+        });
+      }
+
+      document.querySelectorAll("[data-service]").forEach(a => a.addEventListener("click", () => {
+        if (!service) return;
+        const wanted = a.getAttribute("data-service").replace(/&amp;/g, "&");
+        const option = Array.from(service.options).find(o => o.textContent.trim() === wanted);
+        if (option) service.value = option.value || option.textContent;
+      }));
+
+      const year = document.querySelector("#year");
+      if (year) year.textContent = String(new Date().getFullYear());
+
+      if (form) form.addEventListener("submit", e => {
+        e.preventDefault();
+        if (!form.reportValidity()) return;
+        const f = new FormData(form);
+        const message = [
+          "Hi Precision Pit Stop! I'd like a quote.",
+          "Name: " + (f.get("name") || ""),
+          "Vehicle: " + (f.get("vehicle") || ""),
+          "ZIP: " + (f.get("zip") || ""),
+          "Service: " + (f.get("service") || ""),
+          "Details: " + (f.get("details") || "Not provided")
+        ].join("\n");
+        if (error) error.textContent = "If your messaging app does not open, text (831) 583-5123 with your vehicle and service request.";
+        window.location.href = "sms:+18315835123?body=" + encodeURIComponent(message);
+      });
+    })();
+  </script>
+</body>
+</html>
